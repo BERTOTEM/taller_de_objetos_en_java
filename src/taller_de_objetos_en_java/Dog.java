@@ -87,10 +87,10 @@ public class Dog {
       int upperbound = 2;
       int int_random = rand.nextInt(upperbound);
         switch (int_random) {
-            case 0 -> Bark();
-            case 1 -> Eat();
-            case 2 -> Sleep();
-            default -> System.out.println("nada");
+            case 0 : Bark();
+            case 1 : Eat();
+            case 2 : Sleep();
+            default : System.out.println("nada");
         }
      }
     

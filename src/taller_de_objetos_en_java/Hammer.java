@@ -110,11 +110,11 @@ public class Hammer {
       int upperbound = 3;
       int int_random = rand.nextInt(upperbound);
         switch (int_random) {
-            case 0 -> Hit();
-            case 1 -> Nail();
-            case 2 -> Unnail();
-            case 3 -> Break();
-            default -> System.out.println("nada");
+            case 0 : Hit();
+            case 1 : Nail();
+            case 2 : Unnail();
+            case 3 :Break();
+            default : System.out.println("nada");
         }
      }
     
